@@ -1,0 +1,13 @@
+{
+  "name": "banana-arena",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MERN Banana math game using the external Banana API",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
